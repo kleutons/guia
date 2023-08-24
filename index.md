@@ -3,55 +3,6 @@ title: Home
 layout: home
 ---
 
-
-# Introdução ao HTML
-## O que é um HTML?
-> **HyperText Markup Language** (Linguagem de Marcação de Hipertexto).
-
-- **Linguagem:** Uma forma de comunicação, estabelecida entre nós e o navegador de Internet (*Google Chrome, Firefox, Safari, Edge, Internet Explorer*, etc.).
-- **Marcação:** O HTML "marca" os elementos em uma página, indicando o que é um texto, uma imagem, um vídeo e outros componentes.
-- **Hipertexto:** O termo *"hipertexto"* é uma maneira elegante de se referir a um site.
-
-**Em resumo,** o HTML é a tecnologia empregada para identificar e estruturar os elementos presentes em uma página de internet ou site, através do uso de TAG´s.
-
-## Entendendo as TAG´s
-TAG´s são como etiquetas. Elas representam os trechos de código que auxiliam na identificação dos elementos em uma página.
-
-
-**Exemplo de TAG's.**
-```html	
-<img> -> tag de imagem
-
-<p>Meu parágrafo aqui </p> -> tag parágrafo 
-
-<h1>Meu título aqui</h1>   -> tag de título
-```
-
-## Estrutura Básica de um Site ou Página HTML
-
-> Temos 3 TAG's principais, que vão ser a estrutura do nosso site.
-
-`<html> </html>`  -> Todo nosso site fica aqui dentro
-
-`<head> </head>`  -> Aqui são as configurações do nosso site
-
-`<body> </body>`  -> Aqui vai toda a parte vísivel do nosso site
-
-> Na prática, essa é a estrutura basica de um site HTML
-
-```html
-<html> 
-<head> 
-	<title> Título do Meu site </title>
-</head>
-<body>
-	<h1> Meu primeiro Site! </h1>
-
-	<p> Serei um Programador(a) de Sucesso! </p>
-</body>
-</html>
-```
-
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
 If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
