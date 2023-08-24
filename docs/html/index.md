@@ -1,6 +1,6 @@
 ---
 title: HTML
-title: Customization HTML
+nav_order: 2
 layout: home
 ---
 
@@ -57,10 +57,9 @@ TAG´s são como etiquetas. Elas representam os trechos de código que auxiliam 
 
 ## Principais TAG's HTML (clique na seta para abri)
 
-<details>
-<summary>Títulos - h1 até o h6</summary>
+### Títulos - h1 até o h6
 
-> Em HTML, os títulos são categorizados de h1 a h6. O h1 representa o título de maior relevância na página, enquanto o h6 é atribuído aos títulos de menor importância.
+> Em HTML, os [títulos] são categorizados de [h1] a h6. O h1 representa o título de maior relevância na página, enquanto o h6 é atribuído aos títulos de menor importância.
 
 ```
 <h1> Seu título H1 </h1>
@@ -71,31 +70,19 @@ TAG´s são como etiquetas. Elas representam os trechos de código que auxiliam 
 <h6> Seu título H6 </h6>
 ```
 
-</details>
-
-<details>
-<summary>Paragrafo - &lt;p&gt; &lt;/p&gt; </summary>
+### Paragrafo - &lt;p&gt; &lt;/p&gt; 
 
 ```html
 <p>Meu parágrafo, texto que você desejar...</p>
 ```
-</details>
 
-<details>
-<summary>Negrito - &lt;b&gt; &lt;/b&gt; </summary>
+### Negrito - &lt;b&gt; &lt;/b&gt; 
 
 ```html
 <p> Seu texto em <b>negrito</b> ou <strong>Negrito<strong> </p>
 ```
-
-</details>
-
-
-<details>
-<summary>Itálico  - &lt;i&gt; &lt;/i&gt; </summary>
+### Itálico  - &lt;i&gt; &lt;/i&gt;
 
 ```
 <p> Esse é o meu <i>texto em itálico</i> </p>
 ```
-
-</details>
